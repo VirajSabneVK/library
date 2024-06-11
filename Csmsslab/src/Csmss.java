@@ -18,7 +18,7 @@ class Csmss
 	if(x < 50){
 		System.out.println("Welcome to CSMSS Lab");
 		System.out.println("Choice Book : ");
-		System.out.println("1.Making India Awsome. 2.One Indian Girl, 3.Revoluation 2020 , 4.Naked Triangle , 5.A River Sutra , 6.A call To Honner");
+		System.out.println("Shree","Vilas","Mangesh","Rajesh","Radhe","Rushi");
 		
 		int no = sc.nextInt();
 		String sub [] = {"Shree","Vilas","Mangesh","Rajesh","Radhe","Rushi"};
