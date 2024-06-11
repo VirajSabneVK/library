@@ -1,0 +1,40 @@
+/*
+Entery = Student in id No;
+list of book;
+Choice Book ;
+Done Massage ;
+recipt;
+*/
+
+import java.util.Scanner;
+class Csmss 
+{
+	public static void main(String [] args)
+	{
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter your Id");
+	int x = sc.nextInt();
+	
+	if(x < 50){
+		System.out.println("Welcome to CSMSS Lab");
+		System.out.println("Choice Book : ");
+		System.out.println("1.Making India Awsome. 2.One Indian Girl, 3.Revoluation 2020 , 4.Naked Triangle , 5.A River Sutra , 6.A call To Honner");
+		
+		int no = sc.nextInt();
+		String sub [] = {"Making India Awsome", "One Indian Girl", "Revoluation 2020 ", "Naked Triangle ", "A River Sutra" , "A call To Honner"};
+		String name [] =  new String[6];
+		
+		for(int i =0+1; i < 2;i++)
+		{
+			sub[i] = sc.nextLine();
+		}
+		
+		for(int i =0; i < 2; i++)
+		{
+			System.out.println(sub[i]);
+		}
+		System.out.println("Thankyou");
+	}
+	}
+}
+
